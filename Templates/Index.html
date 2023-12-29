@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Image Classification</h1>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <div class="upload-section">
+                <input type="file" name="file" accept=".jpg, .jpeg, .png" required>
+                <button type="submit">Predict</button>
+            </div>
+        </form>
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
