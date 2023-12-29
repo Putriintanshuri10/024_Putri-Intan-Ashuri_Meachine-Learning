@@ -7,7 +7,7 @@ Dataset yang digunakan yaitu RPS:
 - **Paper**
 - **Scissors**
 
-<img src="images/Rps.png" width="800"/>
+<img src="image/Rps.png" width="800"/>
 
 Splitting dataset: 70% train, 5% test & 25% validation 
 
