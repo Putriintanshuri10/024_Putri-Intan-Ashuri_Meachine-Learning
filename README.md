@@ -7,7 +7,7 @@ Dataset yang digunakan yaitu RPS:
 - **Paper**
 - **Scissors**
 
-<img src="image/Rps.png" width="800"/>
+<img src="Image/Rps.png" width="800"/>
 
 Splitting dataset: 70% train, 5% test & 25% validation 
 
@@ -16,17 +16,17 @@ Menggunakan Model VGG19, melakukan Image Generator dengan melakukan 10 epoch
 
 - Summary Model VGG19
 
-  <img src="image/Model VGG19(1).png" width="500"/>
-  <img src="image/Model VGG19(2).png" width="500"/>
+  <img src="Image/Model VGG19(1).png" width="500"/>
+  <img src="Image/Model VGG19(2).png" width="500"/>
 
 - Summary Model yang sudah terhubung sepenuhnya
 
-  <img src="image/Model Fully Connected(1).png" width="500"/>
-  <img src="image/Model Fully Connected(2).png" width="500"/>
+  <img src="Image/Model Fully Connected(1).png" width="500"/>
+  <img src="Image/Model Fully Connected(2).png" width="500"/>
 
 - Grafik loss dan accuracy pada Model yang sudah terhubung sepenuhnya dengan VGG19
   
-  <img src="image/Train & Validation Graph.png" width="700"/>
+  <img src="Image/Train & Validation Graph.png" width="700"/>
 
 # *VGG19*
 VGG19 adalah model arsitektur Convolutional Neural Network (CNN) yang dikenal luas dalam dunia pengolahan gambar dan kompetisi pengenalan gambar.
